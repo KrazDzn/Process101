@@ -27,6 +27,37 @@ body {
     padding: 0 15px;
     animation: slide 25 ease;
 }
+
+.home .controls .prev,
+.home .controls .next{
+    position: absolute;
+    z-index:2;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    color: #ffffff;
+    background-color: #FF5722;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.home .controls .prev {
+    Left:0;
+}
+
+.home .controls .prev:hover,
+.home .controls .next:hover{
+    background-color: #000000;
+}
+
+.home .controls .next {
+    right:0;
+}
+
 .home .slide .active{
     display: flex;}
 
