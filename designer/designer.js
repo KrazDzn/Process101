@@ -11,6 +11,7 @@ function openNav() {
 const slides= document.querySelector(".slider").children;
 const prev= document.querySelector(".prev");
 const next= document.querySelector(".next");
+const circleIndicator=document.querySelector(".indicator");
 let index=0;
 
 prev.addEventListener("click", function() {
